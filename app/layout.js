@@ -4,7 +4,7 @@ export const metadata = {
   title: 'BasePet',
   description: 'Feed daily. Protect your streak.',
   metadataBase: new URL(
-    'https://petonbase.vercel.app/'
+    'https://petonbase.vercel.app'
   ),
   other: {
     'base:app_id':
