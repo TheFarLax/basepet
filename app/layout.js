@@ -2,7 +2,11 @@ import './globals.css'
 
 export const metadata = {
   title: 'BasePet',
-  description: 'Feed daily. Protect your streak.'
+  description: 'Feed daily. Protect your streak.',
+  other: {
+    'base:app_id':
+      '6a00a3de9ee68cd142d1b087'
+  }
 }
 
 export default function RootLayout({
@@ -10,18 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
-      <head>
-        <meta
-          name="base:app_id"
-          content="6a00a3de9ee68cd142d1b087"
-        />
-      </head>
-
       <body>
         {children}
       </body>
-
     </html>
   )
 }
