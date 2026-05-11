@@ -330,6 +330,10 @@ export default function BasePetApp() {
           abi: CONTRACT_ABI,
           functionName: 'feed',
           account
+          
+          dataSuffix:
+      '0x62635f33677578766a6f7a0b0080218021802180218021802180218021'
+
         })
 
       await publicClient.waitForTransactionReceipt({
